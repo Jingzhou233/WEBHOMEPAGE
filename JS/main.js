@@ -1,4 +1,7 @@
 
+$(document).ready(function () {
+  
+
 $(window).bind('scroll',function(e){
     parallaxScroll();
     example();
@@ -30,3 +33,4 @@ function example() {
   console.log("Scroll from Top: " + tempScrollTop.toString());
 };
 
+});
